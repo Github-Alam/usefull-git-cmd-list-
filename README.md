@@ -16,5 +16,5 @@ git push origin master
 cd name
 cd .. 
 
-*** How to replace remote origin url***
+***How to replace remote origin url***
 git remote set-url origin <NEW_GIT_URL_HERE>
