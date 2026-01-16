@@ -26,3 +26,10 @@ cd ..
 
 ***How to replace remote origin url***
 git remote set-url origin <NEW_GIT_URL_HERE>
+
+***Push an existing repository from the command line**
+git add .
+git commit -m "upload only"
+git remote add origin https://github.com/Github-Alam/ADCperipheralCLK.git
+git branch -M main
+git push -u origin main
